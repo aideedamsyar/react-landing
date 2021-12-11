@@ -1,0 +1,26 @@
+import { Button, IconButton } from '@chakra-ui/button';
+import Icon from '@chakra-ui/icon';
+import { Box, Flex, HStack, Link, Stack, Text } from '@chakra-ui/layout';
+import { useMediaQuery } from '@chakra-ui/media-query';
+import { background } from '@chakra-ui/styled-system';
+import {FaFacebookF, FaInstagram, FaGithub, FaLinkedin, FaSpotify} from 'react-icons/fa'
+
+
+
+const Social = () => {
+    const {isNotSmallerScreen} = useMediaQuery("(min-width:600px)");
+
+
+    return (   
+        <HStack>
+            <Link href="https://github.com/aideedamsyar/"><Icon as={FaGithub} boxSize="2rem"></Icon></Link>
+            <Link href="https://www.linkedin.com/in/aideedamsyar/"><Icon as={FaLinkedin} boxSize="2rem"></Icon></Link>
+            <Link href="https://www.facebook.com/deed.tengku"><Icon as={FaFacebookF} boxSize="2rem"></Icon></Link>
+            <Link href="https://www.instagram.com/aideedamsyar/"><Icon as={FaInstagram} boxSize="2rem"></Icon></Link>
+            <Link href="https://open.spotify.com/artist/65TrbGXb7mfEMsyI8R2nUo?si=wZgVP2GHQ2KFjO6KsrwmKw"><Icon as={FaSpotify} boxSize="2rem"></Icon></Link>
+        </HStack>
+        
+    );
+}
+ 
+export default Social;
