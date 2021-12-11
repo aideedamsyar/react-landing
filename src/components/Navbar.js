@@ -6,8 +6,8 @@ import { useColorMode } from "@chakra-ui/color-mode";
 import {Menu,MenuButton,MenuList,MenuItem,MenuItemOption,MenuGroup,MenuOptionGroup,MenuIcon,MenuCommand,MenuDivider} from '@chakra-ui/react'
 import { ChevronDownIcon } from '@chakra-ui/icons'
 import { Flex, Heading, Link, Spacer, VStack } from "@chakra-ui/layout";
-import Logo from "./Logo";
 import logo from '../media/logo.svg'
+import logoPNG from '../media/logoPNG.png'
 import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
@@ -21,7 +21,7 @@ const Navbar = () => {
         <div>
         <VStack p={3} pb={0}>     
           <Flex w="100%">
-            <img onClick={() => {navigate("/")}} className="logo" src={logo} alt="logo" />
+            <img onClick={() => {navigate("/")}} className="logo" src={logoPNG} alt="logo" />
             <Spacer></Spacer>
             <IconButton mr={2} icon={isDark ? <FaSun/> : <FaMoon/>} isRound='true' onClick={toggleColorMode}></IconButton>
             <Menu>

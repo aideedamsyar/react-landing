@@ -18,7 +18,7 @@ function Home() {
 
     
     return (
-        <VStack>
+        <VStack mt={isNotSmallerScreen ? "0" : "3.7rem"}>
             {/* <GamingTime /> */}
             <Stack align='center'>
             <Flex direction={isNotSmallerScreen ? "row" : "column"}

@@ -37,7 +37,7 @@ import {
 
     return (
       <Container maxW="full" mt={0} centerContent overflow="hidden">
-        <Flex>
+        <Flex mt={4} mb={4}>
         
           <Box
             bg={isDark ? "white" : "black"}
@@ -51,7 +51,7 @@ import {
                   <Box>
                     <Heading color={isDark ? "black" : "white"}>Contact.</Heading>
                     <Text mt={{ sm: 3, md: 3, lg: 5 }} color="gray.500">
-                      Fill up the following form to contact me!
+                      Feel free to fill up the following form to contact me!
                     </Text>
                     <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }}>
                       <VStack pl={0} spacing={3} alignItems="flex-start">
@@ -87,7 +87,7 @@ import {
                               pointerEvents="none"
                               children={<MdOutlineEmail color="gray.800" />}
                             />
-                            <Input placeholder='(to get back to you)' type="text" size="md" name="email" />
+                            <Input placeholder='email' type="text" size="md" name="email" />
                           </InputGroup>
                         </FormControl>
                         <FormControl id="name">
@@ -112,7 +112,9 @@ import {
                             Send :)
                           </Button>
                         </FormControl>
-                        
+                        <input type="hidden" name="_next" value="https://aideedamsyar.com/thanks"></input>
+                        <input type="hidden" name="_autoresponse" value="Hello there! Aideed here. Thank you for sending me a message. If it happens to require a reply, I will get back to you soon! Here's a copy of your message."></input>
+                        <input type="hidden" name="_template" value="box"></input>
                         </form>
                         
 

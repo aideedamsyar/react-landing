@@ -54,7 +54,7 @@ function Resume() {
                     <AccordionPanel pb={4}>
                     <Text fontSize="2xl" fontWeight="bold">University of Malaya</Text>
                     <Text color='gray.500' fontSize="md" fontWeight="normal">2021 - Present</Text>
-                    <Text color={isDark ? "gray.100" : "gray.900"} fontSize="lg" fontWeight="normal">Bachelor of Computer Science (Artifical Intelligence)</Text>
+                    <Text color={isDark ? "gray.100" : "gray.900"} fontSize="lg" fontWeight="normal">Bachelor of Computer Science (Artificial Intelligence)</Text>
                     </AccordionPanel>
 
                     <AccordionPanel pb={4}>
