@@ -11,6 +11,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Contact from "./components/Contact";
 import Thanks from "./components/Thanks";
+import NotFound from "./components/NotFound"
 
 function App() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -27,6 +28,7 @@ function App() {
         <Route  path="/resume" element={<Resume />}></Route>        
         <Route  path="/contact" element={<Contact />}></Route>        
         <Route  path="/thanks" element={<Thanks />}></Route>        
+        <Route path='*' element={<NotFound />} />
       </Routes>
 
     </Router>  

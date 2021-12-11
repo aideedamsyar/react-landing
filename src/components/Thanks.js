@@ -20,7 +20,7 @@ function Thanks() {
     return (
         <div>
             <Container>
-            <Heading>The message is on its way!</Heading>
+            <Heading mt="2rem" mb="1.5rem" lineHeight="2.5rem" fontSize="2.5rem">The message is on its way!</Heading>
             <div className='container' ref={container}></div>
             <Button onClick={() => {navigate("/")}}>Back to home</Button>
             </Container>
