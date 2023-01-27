@@ -112,7 +112,7 @@ import {
                             Send :)
                           </Button>
                         </FormControl>
-                        <input type="hidden" name="_next" value="https://aideedamsyar.com/thanks"></input>
+                        <input type="hidden" name="_next" value="https://work.aideedamsyar.com/thanks"></input>
                         <input type="hidden" name="_autoresponse" value="Hello there! Aideed here. Thank you for sending me a message. If it happens to require a reply, I will get back to you soon! Here's a copy of your message."></input>
                         <input type="hidden" name="_template" value="box"></input>
                         </form>
