@@ -40,7 +40,7 @@ import {
         <Flex mt={4} mb={4}>
         
           <Box
-            bg={isDark ? "white" : "black"}
+            bg={isDark ? "rgba(0, 0, 0, 0.87)" : "black"}
             color="white"
             borderRadius="lg"
             m={{ sm: 4, md: 16, lg: 10 }}
@@ -49,7 +49,7 @@ import {
               <Wrap spacing={{ base: 20, sm: 3, md: 5, lg: 20 }}>
                 <WrapItem>
                   <Box>
-                    <Heading color={isDark ? "black" : "white"}>Contact.</Heading>
+                    <Heading color={isDark ? "white" : "white"}>Contact.</Heading>
                     <Text mt={{ sm: 3, md: 3, lg: 5 }} color="gray.500">
                       Feel free to fill up the following form to contact me!
                     </Text>
@@ -64,7 +64,7 @@ import {
                 </WrapItem>
                 <WrapItem>
                   <Box bg={isDark ? "black" : "white"} borderRadius="lg">
-                    <Box m={8} color={isDark ? "white" : "black"}>
+                    <Box m={8} color={isDark ? "grey" : "black"}>
                       <VStack spacing={5}>
                       <form action="https://formsubmit.co/6bfb6188e6676479175c152f6a2b8806" method="POST">
                         <FormControl id="name" isRequired>
@@ -74,30 +74,30 @@ import {
                               pointerEvents="none"
                               children={<BsPerson color="gray.800" />}
                             />
-                            <Input placeholder='(cool name only)' type="text" name="name" size="md" />
+                            <Input placeholder='Name' type="text" name="name" size="md" />
                             
                             
                           </InputGroup>
                         </FormControl>
                         <FormControl id="name" isRequired>
-                          <FormLabel>Email</FormLabel>
+                          <FormLabel color={isDark ? "white" : "black"}>Email</FormLabel>
                           <InputGroup borderColor="#E0E1E7">
                             <InputLeftElement
                             
                               pointerEvents="none"
                               children={<MdOutlineEmail color="gray.800" />}
                             />
-                            <Input placeholder='email' type="text" size="md" name="email" />
+                            <Input placeholder='Email' type="text" size="md" name="email" />
                           </InputGroup>
                         </FormControl>
                         <FormControl id="name">
-                          <FormLabel>Message</FormLabel>
+                          <FormLabel color={isDark ? "white" : "black"}>Message</FormLabel>
                           <Textarea
                             borderColor="gray.300"
                             _hover={{
                               borderRadius: 'gray.300',
                             }}
-                            placeholder="message"
+                            placeholder="Message"
                             name="message"
                           />
                         </FormControl>
@@ -109,7 +109,7 @@ import {
                             bg="orange"
                             color={isDark ? "black" : "white"}
                             _hover={{}}>
-                            Send :)
+                            Send
                           </Button>
                         </FormControl>
                         <input type="hidden" name="_next" value="https://work.aideedamsyar.com/thanks"></input>
