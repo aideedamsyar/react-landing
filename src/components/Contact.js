@@ -68,7 +68,7 @@ import {
                       <VStack spacing={5}>
                       <form action="https://formsubmit.co/6bfb6188e6676479175c152f6a2b8806" method="POST">
                         <FormControl id="name" isRequired>
-                          <FormLabel color={isDark ? "white" : "black"}>Your Name</FormLabel>
+                          <FormLabel color={isDark ? "white" : "black"}>Name</FormLabel>
                           <InputGroup borderColor="#E0E1E7">
                             <InputLeftElement
                               pointerEvents="none"
