@@ -23,7 +23,7 @@ function NotFound() {
             <Container>
                 <Heading mt="2rem" lineHeight="2.5rem" fontSize="2.5rem">Hmm, the page doesn't seem to be available.</Heading>
                 <div className='containerrr' ref={container}></div>            
-                <Text>If you think this is a mistake, feel free to send feedback.</Text> 
+                <Text>If you think this is a mistake, feel free to send feedbacks.</Text> 
             </Container>
             <Container>
                 <ButtonGroup mt="1.5rem" mb="4rem">
