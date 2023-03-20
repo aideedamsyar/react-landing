@@ -15,6 +15,7 @@ import {
     StackDivider,
     Icon,
     useColorModeValue,
+    Box
   } from '@chakra-ui/react';
   import {
     IoAnalyticsSharp,
@@ -73,26 +74,23 @@ import {
 
             <Heading>Hello there!</Heading>
 
-            <Text color={isDark ? 'gray.400' : 'gray.700'} fontSize={'lg'}>
-            My name is Tengku and I'm a computer science undergraduate student at Hanyang University, Seoul, South Korea. I have developed a foundation in programming languages like C and Java. Even so, I find myself feeling more ecstatic and comfortable working with HTML5, CSS3, and Javascript with React.js in the realm of front-end development. 
-            </Text>
+            
+            <Box ml={10} mr={10} mb={10}>
+              <Text fontSize='lg' >My name is Tengku and I'm a computer science undergraduate student at Hanyang University, Seoul, South Korea. I have developed a foundation in programming languages like C and Java. Even so, I find myself feeling more ecstatic and comfortable working with HTML5, CSS3, and Javascript with React.js in the realm of front-end development. </Text>
+            </Box> 
+            <Box ml={10} mr={10} mb={10}>
+              <Text fontSize='lg' >In my idle hours, I enjoy working on cinematogrophy projects that involve filming and editing videos. Sometimes, I play the piano and attempt to produce my music just for fun. At the moment, I’m working on my skills in UI/UX Design and also focusing towards learning the back-end specifically Node.js.</Text>
+            </Box>   
+            <Box ml={10} mr={10} mb={10}>
+              <Text fontSize='lg' >Feel free to contact me should you have any question in mind. I would like to know more about you! </Text>
+            </Box>   
+                
+            
+            
 
-            <Text color={isDark ? 'gray.400' : 'gray.700'}fontSize={'lg'}>
-            In my idle hours, I enjoy working on cinematogrophy projects that involve filming and editing videos. Sometimes, I play the piano and attempt to produce my music just for fun. At the moment, I’m working on my skills in UI/UX Design and also focusing towards learning the back-end specifically Node.js.
-            </Text>
 
-            <Text color={isDark ? 'gray.400' : 'gray.700'} fontSize={'lg'}>
-            Feel free to contact me should you have any question in mind. I would like to know more about you! 
-            </Text>
 
-            <Stack
-              spacing={4}
-              divider={
-                <StackDivider
-                  borderColor={useColorModeValue('gray.100', 'gray.700')}
-                />
-              }>
-            </Stack>
+         
           </Stack>
           <Flex>
 
