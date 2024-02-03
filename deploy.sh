@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CUSTOM_DOMAIN="https://tracker.aideedamsyar.com"
+CUSTOM_DOMAIN="https://work.aideedamsyar.com"
 # Build and deploy
 npm run build
 npm run deploy
