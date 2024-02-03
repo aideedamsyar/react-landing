@@ -27,7 +27,7 @@ function Resume() {
 
     const showToast = () => {
         toast({
-            duration: 6000,
+            duration: 8000,
             isClosable: true,
             render: ({ id, onClose }) => (
                 <Box className="animated-gradient-bg" p={3} borderRadius="md" maxWidth="sm">
