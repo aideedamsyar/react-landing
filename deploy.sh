@@ -5,6 +5,8 @@ CUSTOM_DOMAIN="https://tracker.aideedamsyar.com"
 npm run build
 npm run deploy
 
+echo $CUSTOM_DOMAIN > CNAME
+
 # Add changes to git
 git add .
 
