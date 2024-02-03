@@ -76,14 +76,17 @@ import {
 
             
             <Box ml={10} mr={10} mb={10}>
-              <Text fontSize='lg' >My name is Tengku and I'm a computer science undergraduate student at Hanyang University, Seoul, South Korea. I have developed a foundation in programming languages like C and Java. Even so, I find myself feeling more ecstatic and comfortable working with HTML5, CSS3, and Javascript with React.js in the realm of front-end development. </Text>
+              <Text fontSize='lg' >My name is Tengku Aideed Amsyar. I am a Malaysian living in South Korea and an aspiring software engineer. </Text>
             </Box> 
             <Box ml={10} mr={10} mb={10}>
-              <Text fontSize='lg' >In my idle hours, I enjoy working on cinematogrophy projects that involve filming and editing videos. Sometimes, I play the piano and attempt to produce my music just for fun. At the moment, I’m working on my skills in UI/UX Design and also focusing towards learning the back-end specifically Node.js.</Text>
+              <Text fontSize='lg' >I created this site as a platform to showcase a glimpse into my professional endeavors and highlight my journey in computer science.</Text>
             </Box>   
             <Box ml={10} mr={10} mb={10}>
-              <Text fontSize='lg' >Feel free to contact me should you have any question in mind. I would like to know more about you! </Text>
-            </Box>   
+              <Text fontSize='lg' >In my idle hours, I dive into the world of cinematography that spans filming and editing videos. Sometimes, my interest in music finds me at the piano, composing and producing melodies as a creative outlet. </Text>
+            </Box> 
+            <Box ml={10} mr={10} mb={10}>
+              <Text fontSize='lg' >Please feel free to reach out should you have any questions in mind. I would like to learn more about you!</Text>
+            </Box>  
                 
             
             
