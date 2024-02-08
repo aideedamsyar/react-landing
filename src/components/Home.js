@@ -9,8 +9,6 @@ import Links from './Links';
 import Social from './Social';
 import GamingTime from './GamingTime';
 
-
-
 function Home() {
     const { colorMode, toggleColorMode } = useColorMode();
     const isDark = colorMode === "dark";
@@ -46,9 +44,7 @@ function Home() {
             
         </Stack>
         </VStack>
-        
-        
-        
+               
     )
 }
 

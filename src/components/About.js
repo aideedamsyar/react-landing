@@ -88,11 +88,6 @@ import {
               <Text fontSize='lg' >Please feel free to reach out should you have any questions in mind. I would like to learn more about you!</Text>
             </Box>  
                 
-            
-            
-
-
-
          
           </Stack>
           <Flex>

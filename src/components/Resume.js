@@ -9,9 +9,6 @@ import GamingTime from './GamingTime'
 import { ArrowForwardIcon } from "@chakra-ui/icons";
 import { BrowserRouter as Router, Routes, Route, useNavigate, Navigate} from "react-router-dom";
 import "../index.css"
-
-
-
 import {
     Accordion,
     AccordionItem,
@@ -20,8 +17,6 @@ import {
     AccordionIcon,
   } from '@chakra-ui/react'
 
-
-  
 function Resume() {
     const toast = useToast();
 
@@ -46,8 +41,7 @@ function Resume() {
 
     return (
         <div>
-            <Container>
-                
+            <Container>                
             <Box mt="0" ml={5} align='flex-start'>
                 <Text fontSize="7xl" fontWeight="bold">Resume.</Text>
             </Box>
@@ -56,10 +50,7 @@ function Resume() {
                 <Button variant='solid' size='xs' mb="1.5rem" onClick={showToast}>Download CV (PDF)</Button>
                 
             </Stack>
-            
-
-            
-            
+                    
             <Accordion mb={6} allowToggle borderColor={isDark ? "gray.100" : "gray.500"}>
                 <AccordionItem>
                     <h2>
@@ -105,13 +96,6 @@ function Resume() {
 
                 </AccordionItem>
 
-                
-
-
-
-
-                
-
                 <AccordionItem>
                     <h2>
                     <AccordionButton>
@@ -138,12 +122,7 @@ function Resume() {
                     <Text color={isDark ? "gray.100" : "gray.900"} fontSize="sm" fontWeight="normal">Full Stack Software Engineering (primarily Front-End Development), Product Design (UI/IX), Cinematography, Writing.</Text>
                     </AccordionPanel>
                 </AccordionItem>
-                
-
-                
-
-                
-                    
+                                            
             </Accordion>
             <Button mb={10} onClick={() => {navigate("/contact")}} rightIcon={<ArrowForwardIcon />} colorScheme='black' variant='outline'>Contact</Button>
             </Container>
