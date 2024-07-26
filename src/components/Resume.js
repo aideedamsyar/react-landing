@@ -3,8 +3,6 @@ import { Box, Button, Link, Text, Flex, Spacer, Stack, useToast, CloseButton } f
 import { Container } from '@chakra-ui/react'
 import { useMediaQuery } from '@chakra-ui/media-query';
 import { useColorMode } from "@chakra-ui/color-mode";
-// import CVPDF from '../media/CV.pdf'
-// import CVDocx from '../media/CV.docx'
 import GamingTime from './GamingTime'
 import { ArrowForwardIcon } from "@chakra-ui/icons";
 import { BrowserRouter as Router, Routes, Route, useNavigate, Navigate} from "react-router-dom";
